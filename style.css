@@ -44,7 +44,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   text-align: center;
   background-color: var(--background-color);
   /* padding-top: 2rem; */
