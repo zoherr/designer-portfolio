@@ -518,9 +518,9 @@ button {
   /* font-size: 1rem; */
   /* gap: 1rem; */
   border: none;
-  height: 3rem; 
-  width: 20rem; 
-  margin: auto;
+  /* height: 3rem; 
+  width: 20rem;  */
+  /* margin: auto; */
 }
 #contact {
   margin-top: 2.5rem;
@@ -590,6 +590,7 @@ button {
 .contact__group {
   display: grid;
   row-gap: 1.25rem;
+  margin-bottom: 0.rem;
 }
 
 label {
@@ -603,6 +604,7 @@ label {
   position: relative;
   width: 100%;
   height: 58px;
+  margin-bottom: 1rem;
 }
 
 .contact__input,
@@ -614,6 +616,7 @@ label {
 }
 .contact__input {
   position: absolute;
+  gap: ;
   width: 100%;
   height: 100%;
   background-color: var(--black-color);
@@ -704,3 +707,17 @@ label {
     
   }
 }
+
+
+/*  */
+.footer{
+  position: relative;
+  background-color: var(--light-gray);
+  padding: 2rem;
+  bottom: 0;
+  margin-top: 2rem;
+}
+
+
+
+/* Loader Animation */
